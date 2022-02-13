@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Authentication form</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: Roboto;
+    }
+    body{
+        background:linear-gradient(rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+    url("https://images.pexels.com/photos/2114014/pexels-photo-2114014.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+        background-attachment: fixed;
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .backdrop{
+        position: relative;
+        margin:0 auto;
+        display: block;
+        justify-content: center;
+        background-color: #ffffff10;
+        background-attachment: fixed;
+        height: 30em;
+        width: 30em;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 5%;
+    }
+    .bks{
+        position: absolute;
+    }
+    .form-check{
+        padding-bottom: 5%;
+    }
+    .navbar{
+        position: fixed;
+        display: flex;
+        justify-content:center;
+        overflow: hidden;
+        width: 100%;
+    }
+    .navbar-text{
+        display: flex;
+        float: left;
+    }
+    .navbar-text p{
+        color: #f7f7f7;
+        display:flex;
+        font-size: 100%;
+        justify-content: center;
+        display: flex;
+    }
+    #emailtext{
+        color: white;
+    }
+    #passwordtext{
+        color: white;
+    }
+    #agreetext{
+        color: white;
+    }
+    #emailhelp{
+        color: whitesmoke;
+    }
+    #exampleCheck1{
+        cursor: pointer;
+    }
+    .btn{
+        color: white;
+        background-color: #FAACA8;
+        background-image: linear-gradient(135deg, #FAACA8 0%, #DDD6F3 100%);
+
+        border: none;
+    }
+    .btn:hover{
+        background-color: black;
+        background-image: none;
+        transition: 0.4s;
+    }
+</style>
+
+</head>
+
+<body>
+    <div class="backdrop"></div>
+<form class="bks">
+    <div class="form-group">
+      <label id="emailtext" for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      <small id="emailhelp" class="form-text">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label id="passwordtext" for="exampleInputPassword1">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label id="agreetext" class="form-check-label" for="exampleCheck1">Agree to terms</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
