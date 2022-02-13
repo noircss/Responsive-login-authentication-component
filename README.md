@@ -4,3 +4,5 @@
 
 
  Created using HTML5, CSS3, and Bootstrap 4.
+
+This was my first ever project using bootstrap, and I have to say it's very interesting to use. And, it makes responsiveness to certain things very simple, I can see myself using bootstrap more often later on. I hope you enjoyed!
